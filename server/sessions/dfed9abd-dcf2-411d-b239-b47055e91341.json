@@ -1,0 +1,40 @@
+{
+  "sessionId": "dfed9abd-dcf2-411d-b239-b47055e91341",
+  "studentName": "anam habib",
+  "startedAt": 1788166449.2802093,
+  "durationMs": 3600000,
+  "submitted": true,
+  "answers": {
+    "1": "a",
+    "2": "print(\"Hello World\")",
+    "3": "a",
+    "10": "c",
+    "13": "a",
+    "15": "c",
+    "24": "a",
+    "21": "b",
+    "28": "b",
+    "29": "b",
+    "60": "a",
+    "30": "score>=40",
+    "31": "",
+    "35": "b"
+  },
+  "flags": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "10": false,
+    "13": false,
+    "15": false,
+    "24": false,
+    "21": false,
+    "28": false,
+    "29": false,
+    "60": true,
+    "30": false,
+    "31": true,
+    "35": false
+  },
+  "submittedAtTime": 1788166752.7809534
+}

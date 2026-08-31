@@ -1,0 +1,25 @@
+{
+  "sessionId": "835fd4fc-edfe-432d-8334-cfe59496c658",
+  "studentName": "ali",
+  "startedAt": 1788172263.6638436,
+  "durationMs": 3600000,
+  "submitted": false,
+  "answers": {
+    "1": "b",
+    "2": "print('Hello, World!')",
+    "3": "a",
+    "4": "c",
+    "5": "snake case",
+    "6": "a",
+    "7": "b"
+  },
+  "flags": {
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false,
+    "6": false,
+    "7": false
+  }
+}

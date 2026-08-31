@@ -1,0 +1,1215 @@
+{
+  "session_id": "8560c29e-ad60-4e88-afc9-05a374dae4b1",
+  "studentName": "kainat",
+  "score": 56.2,
+  "grade": "D",
+  "correct": 34,
+  "total": 60,
+  "totalScore": 337,
+  "maxPossible": 600,
+  "timeTakenSeconds": 3600,
+  "submittedAt": "2026-08-31 15:14:45",
+  "topicBreakdown": [
+    {
+      "topic": "Hello World & Basics",
+      "totalQuestions": 3,
+      "correctQuestions": 3,
+      "score": 29,
+      "maxScore": 30,
+      "percentage": 96.7
+    },
+    {
+      "topic": "Variables",
+      "totalQuestions": 3,
+      "correctQuestions": 2,
+      "score": 20,
+      "maxScore": 30,
+      "percentage": 66.7
+    },
+    {
+      "topic": "Data Types",
+      "totalQuestions": 3,
+      "correctQuestions": 3,
+      "score": 27,
+      "maxScore": 30,
+      "percentage": 90.0
+    },
+    {
+      "topic": "Type Conversion",
+      "totalQuestions": 3,
+      "correctQuestions": 2,
+      "score": 20,
+      "maxScore": 30,
+      "percentage": 66.7
+    },
+    {
+      "topic": "Strings Basics",
+      "totalQuestions": 3,
+      "correctQuestions": 1,
+      "score": 13,
+      "maxScore": 30,
+      "percentage": 43.3
+    },
+    {
+      "topic": "String Methods",
+      "totalQuestions": 3,
+      "correctQuestions": 2,
+      "score": 19,
+      "maxScore": 30,
+      "percentage": 63.3
+    },
+    {
+      "topic": "String Formatting",
+      "totalQuestions": 3,
+      "correctQuestions": 1,
+      "score": 10,
+      "maxScore": 30,
+      "percentage": 33.3
+    },
+    {
+      "topic": "Arithmetic Operators",
+      "totalQuestions": 3,
+      "correctQuestions": 2,
+      "score": 20,
+      "maxScore": 30,
+      "percentage": 66.7
+    },
+    {
+      "topic": "Comparison & Logical Operators",
+      "totalQuestions": 3,
+      "correctQuestions": 2,
+      "score": 20,
+      "maxScore": 30,
+      "percentage": 66.7
+    },
+    {
+      "topic": "Conditionals",
+      "totalQuestions": 4,
+      "correctQuestions": 1,
+      "score": 10,
+      "maxScore": 40,
+      "percentage": 25.0
+    },
+    {
+      "topic": "Lists",
+      "totalQuestions": 4,
+      "correctQuestions": 3,
+      "score": 30,
+      "maxScore": 40,
+      "percentage": 75.0
+    },
+    {
+      "topic": "Tuples",
+      "totalQuestions": 4,
+      "correctQuestions": 3,
+      "score": 29,
+      "maxScore": 40,
+      "percentage": 72.5
+    },
+    {
+      "topic": "Sets",
+      "totalQuestions": 4,
+      "correctQuestions": 1,
+      "score": 10,
+      "maxScore": 40,
+      "percentage": 25.0
+    },
+    {
+      "topic": "Dictionaries",
+      "totalQuestions": 4,
+      "correctQuestions": 2,
+      "score": 20,
+      "maxScore": 40,
+      "percentage": 50.0
+    },
+    {
+      "topic": "For Loops",
+      "totalQuestions": 4,
+      "correctQuestions": 1,
+      "score": 10,
+      "maxScore": 40,
+      "percentage": 25.0
+    },
+    {
+      "topic": "While Loops",
+      "totalQuestions": 3,
+      "correctQuestions": 1,
+      "score": 10,
+      "maxScore": 30,
+      "percentage": 33.3
+    },
+    {
+      "topic": "List Methods",
+      "totalQuestions": 3,
+      "correctQuestions": 2,
+      "score": 20,
+      "maxScore": 30,
+      "percentage": 66.7
+    },
+    {
+      "topic": "Advanced Dictionaries",
+      "totalQuestions": 3,
+      "correctQuestions": 2,
+      "score": 20,
+      "maxScore": 30,
+      "percentage": 66.7
+    }
+  ],
+  "details": [
+    {
+      "id": 1,
+      "question": "What does the print() function do in Python?",
+      "type": "mcq",
+      "topic": "Hello World & Basics",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "Reads input from user",
+        "b": "Outputs text or values to the console",
+        "c": "Saves content directly to a file",
+        "d": "Imports external standard modules"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 2,
+      "question": "Write the Python code to print 'Hello, World!'",
+      "type": "short",
+      "topic": "Hello World & Basics",
+      "difficulty": "easy",
+      "userAnswer": "print(\"Hello , World\")",
+      "correctAnswer": "print('Hello, World!')",
+      "options": null,
+      "score": 9,
+      "maxScore": 10,
+      "feedback": "Well done! Your response includes key expected terms (hello, print, world).",
+      "isCorrect": true
+    },
+    {
+      "id": 3,
+      "question": "What will be the output of the following code?\n\nprint('Hello' + ' ' + 'World')",
+      "type": "mcq",
+      "topic": "Hello World & Basics",
+      "difficulty": "easy",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "Hello World",
+        "b": "Hello+World",
+        "c": "HelloWorld",
+        "d": "TypeError: cannot concatenate"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a valid variable identifier in Python?",
+      "type": "mcq",
+      "topic": "Variables",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "2name",
+        "b": "my-name",
+        "c": "_age",
+        "d": "class"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 5,
+      "question": "What is the standard PEP 8 naming convention for variables and function names in Python? (one word answer)",
+      "type": "short",
+      "topic": "Variables",
+      "difficulty": "easy",
+      "userAnswer": "",
+      "correctAnswer": "snake_case",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 6,
+      "question": "What will be the output?\n\nx = 5\ny = x\ny = 10\nprint(x)",
+      "type": "mcq",
+      "topic": "Variables",
+      "difficulty": "medium",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "5",
+        "b": "10",
+        "c": "Error",
+        "d": "None"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 7,
+      "question": "What is the data type of the numeric value 3.14?",
+      "type": "mcq",
+      "topic": "Data Types",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "int",
+        "b": "float",
+        "c": "str",
+        "d": "bool"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 8,
+      "question": "Name the 4 primary built-in collection data types in Python (comma separated).",
+      "type": "short",
+      "topic": "Data Types",
+      "difficulty": "easy",
+      "userAnswer": "list , set , tuple , dic",
+      "correctAnswer": "list, tuple, set, dict",
+      "options": null,
+      "score": 7,
+      "maxScore": 10,
+      "feedback": "Good attempt! You identified 3 of the 4 types (list, tuple, set, dict).",
+      "isCorrect": true
+    },
+    {
+      "id": 9,
+      "question": "What will be the output of type(True)?",
+      "type": "mcq",
+      "topic": "Data Types",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "<class 'int'>",
+        "b": "<class 'bool'>",
+        "c": "<class 'str'>",
+        "d": "<class 'float'>"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 10,
+      "question": "What does int('10') evaluate to?",
+      "type": "mcq",
+      "topic": "Type Conversion",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "'10'",
+        "b": "10.0",
+        "c": "10",
+        "d": "ValueError"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 11,
+      "question": "What built-in function converts any value into its string representation?",
+      "type": "short",
+      "topic": "Type Conversion",
+      "difficulty": "easy",
+      "userAnswer": "",
+      "correctAnswer": "str()",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 12,
+      "question": "What will be the output of int(3.9)?",
+      "type": "mcq",
+      "topic": "Type Conversion",
+      "difficulty": "medium",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "3",
+        "b": "4",
+        "c": "3.0",
+        "d": "Error"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 13,
+      "question": "What is the output of 'hello'[1] in Python?",
+      "type": "mcq",
+      "topic": "Strings Basics",
+      "difficulty": "easy",
+      "userAnswer": "a",
+      "correctAnswer": "b",
+      "options": {
+        "a": "h",
+        "b": "e",
+        "c": "l",
+        "d": "o"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (A), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 14,
+      "question": "What does len('Python') return?",
+      "type": "short",
+      "topic": "Strings Basics",
+      "difficulty": "easy",
+      "userAnswer": "name = (python)     print = (len(name)",
+      "correctAnswer": "6",
+      "options": null,
+      "score": 3,
+      "maxScore": 10,
+      "feedback": "Your answer differs from expected solution. Reference: 6.",
+      "isCorrect": false
+    },
+    {
+      "id": 15,
+      "question": "What will be the output?\n\ns = 'Hello Python'\nprint(s[:5])",
+      "type": "mcq",
+      "topic": "Strings Basics",
+      "difficulty": "medium",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "Hello",
+        "b": "Hello ",
+        "c": "Hell",
+        "d": "Python"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 16,
+      "question": "What does 'hello world'.title() return?",
+      "type": "mcq",
+      "topic": "String Methods",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "b",
+      "options": {
+        "a": "'HELLO WORLD'",
+        "b": "'Hello World'",
+        "c": "'hello world'",
+        "d": "'Hello world'"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (C), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 17,
+      "question": "Which string method removes leading and trailing whitespace from a string?",
+      "type": "short",
+      "topic": "String Methods",
+      "difficulty": "easy",
+      "userAnswer": "print(text.strip())       print(text.1strip())       print(text.rstrip())",
+      "correctAnswer": "strip()",
+      "options": null,
+      "score": 9,
+      "maxScore": 10,
+      "feedback": "Great job! Your answer matches the key requirements.",
+      "isCorrect": true
+    },
+    {
+      "id": 18,
+      "question": "What will be the output?\n\nprint('abc'.replace('b', 'x'))",
+      "type": "mcq",
+      "topic": "String Methods",
+      "difficulty": "easy",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "'axc'",
+        "b": "'abc'",
+        "c": "'xbx'",
+        "d": "Error"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 19,
+      "question": "What is an f-string in Python?",
+      "type": "mcq",
+      "topic": "String Formatting",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "b",
+      "options": {
+        "a": "A string that always evaluates to False",
+        "b": "A formatted string literal with inline expression evaluation",
+        "c": "A function that formats text files",
+        "d": "A frozen immutable string"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (C), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 20,
+      "question": "Write an f-string that prints 'I am 25 years old' using a variable age = 25.",
+      "type": "short",
+      "topic": "String Formatting",
+      "difficulty": "easy",
+      "userAnswer": "",
+      "correctAnswer": "print(f'I am {age} years old')",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 21,
+      "question": "What will be the output?\n\nname = 'Alice'\nprint(f'Hello {name!r}')",
+      "type": "mcq",
+      "topic": "String Formatting",
+      "difficulty": "medium",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "Hello Alice",
+        "b": "Hello 'Alice'",
+        "c": "Hello \"Alice\"",
+        "d": "SyntaxError"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 22,
+      "question": "What is the result of the floor division 17 // 3?",
+      "type": "mcq",
+      "topic": "Arithmetic Operators",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "5.67",
+        "b": "5",
+        "c": "6",
+        "d": "2"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 23,
+      "question": "Which Python operator returns the remainder of a division?",
+      "type": "short",
+      "topic": "Arithmetic Operators",
+      "difficulty": "easy",
+      "userAnswer": "",
+      "correctAnswer": "%",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 24,
+      "question": "What will be the output?\n\nprint(2 ** 3 ** 2)",
+      "type": "mcq",
+      "topic": "Arithmetic Operators",
+      "difficulty": "hard",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "64",
+        "b": "512",
+        "c": "36",
+        "d": "Error"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 25,
+      "question": "What is the boolean result of: 5 > 3 and 10 < 20?",
+      "type": "mcq",
+      "topic": "Comparison & Logical Operators",
+      "difficulty": "easy",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "True",
+        "b": "False",
+        "c": "Error",
+        "d": "None"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 26,
+      "question": "What does the 'is' operator check in Python?",
+      "type": "short",
+      "topic": "Comparison & Logical Operators",
+      "difficulty": "medium",
+      "userAnswer": "",
+      "correctAnswer": "identity",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 27,
+      "question": "What will be the output?\n\nprint(not (3 > 5))",
+      "type": "mcq",
+      "topic": "Comparison & Logical Operators",
+      "difficulty": "easy",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "True",
+        "b": "False",
+        "c": "Error",
+        "d": "None"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 28,
+      "question": "Which keyword starts an 'else if' branch in Python?",
+      "type": "mcq",
+      "topic": "Conditionals",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "else if",
+        "b": "elif",
+        "c": "elseif",
+        "d": "elsif"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 29,
+      "question": "What will be the output?\n\nx = 10\nif x > 5:\n    print('big')\nelif x > 3:\n    print('medium')\nelse:\n    print('small')",
+      "type": "mcq",
+      "topic": "Conditionals",
+      "difficulty": "medium",
+      "userAnswer": "c",
+      "correctAnswer": "a",
+      "options": {
+        "a": "big",
+        "b": "medium",
+        "c": "small",
+        "d": "big and medium"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (C), but correct answer is (A).",
+      "isCorrect": false
+    },
+    {
+      "id": 30,
+      "question": "Write a one-line ternary conditional expression that assigns 'pass' if score >= 50 else 'fail' to variable result.",
+      "type": "short",
+      "topic": "Conditionals",
+      "difficulty": "medium",
+      "userAnswer": "",
+      "correctAnswer": "result = 'pass' if score >= 50 else 'fail'",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 31,
+      "question": "How do you access the last element of a list named 'items'?",
+      "type": "mcq",
+      "topic": "Lists",
+      "difficulty": "easy",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "items[-1]",
+        "b": "items[last]",
+        "c": "items[0]",
+        "d": "items[len]"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 32,
+      "question": "What will be the output?\n\nnums = [1, 2, 3, 4, 5]\nprint(nums[1:4])",
+      "type": "mcq",
+      "topic": "Lists",
+      "difficulty": "medium",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "[1, 2, 3, 4]",
+        "b": "[2, 3, 4]",
+        "c": "[2, 3, 4, 5]",
+        "d": "[1, 2, 3]"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 33,
+      "question": "What will be the output?\n\nnested = [[1, 2], [3, 4]]\nprint(nested[1][0])",
+      "type": "mcq",
+      "topic": "Lists",
+      "difficulty": "medium",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "[3, 4]"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 34,
+      "question": "What is the defining characteristic of a tuple compared to a list?",
+      "type": "mcq",
+      "topic": "Tuples",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "Tuples can only store numbers",
+        "b": "Tuples are immutable (cannot be modified after creation)",
+        "c": "Tuples cannot be indexed",
+        "d": "Tuples are mutable"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 35,
+      "question": "What will be the output?\n\nt = (1, 2, 3)\nprint(t[0])",
+      "type": "mcq",
+      "topic": "Tuples",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "3",
+        "b": "1",
+        "c": "(1)",
+        "d": "TypeError"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 36,
+      "question": "How do you unpack a tuple (10, 20, 30) into variables a, b, c in a single statement?",
+      "type": "short",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "userAnswer": "a , b, c, = (10 , 20 , 30 )",
+      "correctAnswer": "a, b, c = (10, 20, 30)",
+      "options": null,
+      "score": 9,
+      "maxScore": 10,
+      "feedback": "Well done! Your response includes key expected terms (a, c, 20, b, 30, 10).",
+      "isCorrect": true
+    },
+    {
+      "id": 37,
+      "question": "What happens when you add a duplicate element to a Python set?",
+      "type": "mcq",
+      "topic": "Sets",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "Raises a ValueError",
+        "b": "Stores duplicate alongside original",
+        "c": "Duplicate is silently ignored",
+        "d": "Overwrites previous keys"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 38,
+      "question": "What will be the output?\n\ns = {1, 2, 2, 3, 3}\nprint(len(s))",
+      "type": "mcq",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "userAnswer": "a",
+      "correctAnswer": "b",
+      "options": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "Error"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (A), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 39,
+      "question": "What set method or operation returns elements that exist in both sets?",
+      "type": "short",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "userAnswer": "",
+      "correctAnswer": "intersection",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 40,
+      "question": "What does dict.get('key', 'default') return if 'key' does not exist in the dictionary?",
+      "type": "mcq",
+      "topic": "Dictionaries",
+      "difficulty": "easy",
+      "userAnswer": "a",
+      "correctAnswer": "b",
+      "options": {
+        "a": "None",
+        "b": "'default'",
+        "c": "KeyError",
+        "d": "'key'"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (A), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 41,
+      "question": "What will be the output?\n\nd = {'a': 1, 'b': 2}\nprint(d.get('c', 0))",
+      "type": "mcq",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "2",
+        "b": "1",
+        "c": "0",
+        "d": "KeyError"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 42,
+      "question": "Which dictionary method merges another dictionary or iterable of key-value pairs into the dictionary in-place?",
+      "type": "short",
+      "topic": "Dictionaries",
+      "difficulty": "easy",
+      "userAnswer": "",
+      "correctAnswer": "update()",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 43,
+      "question": "What numbers are generated by range(1, 5)?",
+      "type": "mcq",
+      "topic": "For Loops",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "b",
+      "options": {
+        "a": "1, 2, 3, 4, 5",
+        "b": "1, 2, 3, 4",
+        "c": "0, 1, 2, 3, 4",
+        "d": "1, 2, 3"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (C), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 44,
+      "question": "What will be the output?\n\nfor i in range(3):\n    print(i, end=' ')",
+      "type": "mcq",
+      "topic": "For Loops",
+      "difficulty": "easy",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "1 2 3",
+        "b": "0 1 2",
+        "c": "0 1 2 3",
+        "d": "1 2"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 45,
+      "question": "What does the enumerate() function yield on each loop iteration over a sequence?",
+      "type": "short",
+      "topic": "For Loops",
+      "difficulty": "medium",
+      "userAnswer": "",
+      "correctAnswer": "index and value pairs",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 46,
+      "question": "Which keyword terminates a loop immediately?",
+      "type": "mcq",
+      "topic": "While Loops",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "exit",
+        "b": "stop",
+        "c": "break",
+        "d": "quit"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 47,
+      "question": "What will be the output?\n\ncount = 0\nwhile count < 3:\n    print(count, end=' ')\n    count += 1",
+      "type": "mcq",
+      "topic": "While Loops",
+      "difficulty": "easy",
+      "userAnswer": "c",
+      "correctAnswer": "b",
+      "options": {
+        "a": "1 2 3",
+        "b": "0 1 2",
+        "c": "0 1 2 3",
+        "d": "0 1"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (C), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 48,
+      "question": "What keyword skips the remainder of the current loop iteration and moves to the next cycle?",
+      "type": "short",
+      "topic": "While Loops",
+      "difficulty": "easy",
+      "userAnswer": "",
+      "correctAnswer": "continue",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 49,
+      "question": "What is the primary difference between list.append() and list.extend()?",
+      "type": "mcq",
+      "topic": "List Methods",
+      "difficulty": "medium",
+      "userAnswer": "b",
+      "correctAnswer": "b",
+      "options": {
+        "a": "There is no difference in behavior",
+        "b": "append() adds its argument as a single element; extend() iterates over an iterable adding each item",
+        "c": "extend() adds a single item; append() takes only iterables",
+        "d": "append() removes items from the end"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 50,
+      "question": "What will be the output?\n\nnums = [3, 1, 2]\nnums.sort()\nprint(nums)",
+      "type": "mcq",
+      "topic": "List Methods",
+      "difficulty": "medium",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "[3, 1, 2]",
+        "b": "[2, 1, 3]",
+        "c": "[1, 2, 3]",
+        "d": "None"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 51,
+      "question": "What does sorted(nums) return that nums.sort() does not?",
+      "type": "short",
+      "topic": "List Methods",
+      "difficulty": "medium",
+      "userAnswer": "",
+      "correctAnswer": "a new sorted list",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 52,
+      "question": "What does dict.items() return in Python 3?",
+      "type": "mcq",
+      "topic": "Advanced Dictionaries",
+      "difficulty": "medium",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "A list of only the keys",
+        "b": "A list of only the values",
+        "c": "A dict_items view object containing (key, value) tuples",
+        "d": "A deep copy of the dictionary"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 53,
+      "question": "What will be the output?\n\nd1 = {'a': 1}\nd2 = {'b': 2}\nd3 = d1 | d2\nprint(d3)",
+      "type": "mcq",
+      "topic": "Advanced Dictionaries",
+      "difficulty": "medium",
+      "userAnswer": "a",
+      "correctAnswer": "a",
+      "options": {
+        "a": "{'a': 1, 'b': 2}",
+        "b": "{'a': 1}",
+        "c": "{'b': 2}",
+        "d": "TypeError"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 54,
+      "question": "What operator merges two dictionaries d1 and d2 into a new dictionary in Python 3.9+?",
+      "type": "short",
+      "topic": "Advanced Dictionaries",
+      "difficulty": "medium",
+      "userAnswer": "",
+      "correctAnswer": "d1 | d2",
+      "options": null,
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "No answer provided.",
+      "isCorrect": false
+    },
+    {
+      "id": 55,
+      "question": "What will be the output?\n\nnums = [1, 2, 3]\nnums.append([4, 5])\nprint(len(nums))",
+      "type": "mcq",
+      "topic": "Lists",
+      "difficulty": "medium",
+      "userAnswer": "b",
+      "correctAnswer": "c",
+      "options": {
+        "a": "5",
+        "b": "3",
+        "c": "4",
+        "d": "2"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (B), but correct answer is (C).",
+      "isCorrect": false
+    },
+    {
+      "id": 56,
+      "question": "What will be the output?\n\nt = (1,)\nprint(type(t))",
+      "type": "mcq",
+      "topic": "Tuples",
+      "difficulty": "medium",
+      "userAnswer": "a",
+      "correctAnswer": "b",
+      "options": {
+        "a": "<class 'int'>",
+        "b": "<class 'tuple'>",
+        "c": "<class 'list'>",
+        "d": "SyntaxError"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (A), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 57,
+      "question": "What will be the output?\n\nA = {1, 2, 3}\nB = {3, 4, 5}\nprint(A & B)",
+      "type": "mcq",
+      "topic": "Sets",
+      "difficulty": "medium",
+      "userAnswer": "",
+      "correctAnswer": "b",
+      "options": {
+        "a": "{1, 2}",
+        "b": "{3}",
+        "c": "{1, 2, 3, 4, 5}",
+        "d": "{4, 5}"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Unanswered. The correct option is (b).",
+      "isCorrect": false
+    },
+    {
+      "id": 58,
+      "question": "What will be the output?\n\nd = {'x': 10, 'y': 20}\nfor k, v in d.items():\n    print(k, v, end=' ')",
+      "type": "mcq",
+      "topic": "Dictionaries",
+      "difficulty": "medium",
+      "userAnswer": "c",
+      "correctAnswer": "c",
+      "options": {
+        "a": "x y 10 20",
+        "b": "10 20 x y",
+        "c": "x 10 y 20",
+        "d": "Error"
+      },
+      "score": 10,
+      "maxScore": 10,
+      "feedback": "Correct! Well done.",
+      "isCorrect": true
+    },
+    {
+      "id": 59,
+      "question": "What will be the output?\n\nfor i in range(5):\n    if i == 3:\n        break\n    print(i, end=' ')",
+      "type": "mcq",
+      "topic": "For Loops",
+      "difficulty": "medium",
+      "userAnswer": "a",
+      "correctAnswer": "b",
+      "options": {
+        "a": "0 1 2 3",
+        "b": "0 1 2",
+        "c": "0 1 2 3 4",
+        "d": "1 2"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Incorrect. You selected (A), but correct answer is (B).",
+      "isCorrect": false
+    },
+    {
+      "id": 60,
+      "question": "What will be the output?\n\nx = 0\nprint('yes' if x else 'no')",
+      "type": "mcq",
+      "topic": "Conditionals",
+      "difficulty": "easy",
+      "userAnswer": "",
+      "correctAnswer": "b",
+      "options": {
+        "a": "yes",
+        "b": "no",
+        "c": "0",
+        "d": "Error"
+      },
+      "score": 0,
+      "maxScore": 10,
+      "feedback": "Unanswered. The correct option is (b).",
+      "isCorrect": false
+    }
+  ]
+}

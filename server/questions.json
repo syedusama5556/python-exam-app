@@ -1,0 +1,804 @@
+{
+  "test_title": "Python Basics Certification Exam (18 Topics)",
+  "duration_minutes": 60,
+  "questions": [
+    {
+      "id": 1,
+      "topic": "Hello World & Basics",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What does the print() function do in Python?",
+      "options": {
+        "a": "Reads input from user",
+        "b": "Outputs text or values to the console",
+        "c": "Saves content directly to a file",
+        "d": "Imports external standard modules"
+      },
+      "answerKey": "b",
+      "explanation": "The print() function writes the specified message or values to standard output (console/terminal)."
+    },
+    {
+      "id": 2,
+      "topic": "Hello World & Basics",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "Write the Python code to print 'Hello, World!'",
+      "answerKey": "print('Hello, World!')",
+      "explanation": "In Python 3, print is a function that takes arguments in parentheses: print('Hello, World!')"
+    },
+    {
+      "id": 3,
+      "topic": "Hello World & Basics",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output of the following code?\n\nprint('Hello' + ' ' + 'World')",
+      "options": {
+        "a": "Hello World",
+        "b": "Hello+World",
+        "c": "HelloWorld",
+        "d": "TypeError: cannot concatenate"
+      },
+      "answerKey": "a",
+      "explanation": "The + operator concatenates strings. 'Hello' + ' ' + 'World' creates 'Hello World'."
+    },
+    {
+      "id": 4,
+      "topic": "Variables",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Which of the following is a valid variable identifier in Python?",
+      "options": {
+        "a": "2name",
+        "b": "my-name",
+        "c": "_age",
+        "d": "class"
+      },
+      "answerKey": "c",
+      "explanation": "Variables cannot start with numbers, cannot contain hyphens, and cannot use reserved keywords like 'class'. Leading underscores like '_age' are valid."
+    },
+    {
+      "id": 5,
+      "topic": "Variables",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "What is the standard PEP 8 naming convention for variables and function names in Python? (one word answer)",
+      "answerKey": "snake_case",
+      "explanation": "PEP 8 specifies snake_case (all lowercase words joined with underscores) for variable and function names."
+    },
+    {
+      "id": 6,
+      "topic": "Variables",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nx = 5\ny = x\ny = 10\nprint(x)",
+      "options": {
+        "a": "5",
+        "b": "10",
+        "c": "Error",
+        "d": "None"
+      },
+      "answerKey": "a",
+      "explanation": "Integers are immutable. Assigning y = 10 creates a new reference for y, while x still references 5."
+    },
+    {
+      "id": 7,
+      "topic": "Data Types",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the data type of the numeric value 3.14?",
+      "options": {
+        "a": "int",
+        "b": "float",
+        "c": "str",
+        "d": "bool"
+      },
+      "answerKey": "b",
+      "explanation": "Numbers with decimal points in Python are represented as floating-point numbers (float)."
+    },
+    {
+      "id": 8,
+      "topic": "Data Types",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "Name the 4 primary built-in collection data types in Python (comma separated).",
+      "answerKey": "list, tuple, set, dict",
+      "explanation": "Python's 4 core collection types are lists, tuples, sets, and dictionaries (dict)."
+    },
+    {
+      "id": 9,
+      "topic": "Data Types",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output of type(True)?",
+      "options": {
+        "a": "<class 'int'>",
+        "b": "<class 'bool'>",
+        "c": "<class 'str'>",
+        "d": "<class 'float'>"
+      },
+      "answerKey": "b",
+      "explanation": "True and False are boolean literals belonging to <class 'bool'> (which is a subclass of int)."
+    },
+    {
+      "id": 10,
+      "topic": "Type Conversion",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What does int('10') evaluate to?",
+      "options": {
+        "a": "'10'",
+        "b": "10.0",
+        "c": "10",
+        "d": "ValueError"
+      },
+      "answerKey": "c",
+      "explanation": "int('10') converts the string representation of base-10 digits into the integer 10."
+    },
+    {
+      "id": 11,
+      "topic": "Type Conversion",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "What built-in function converts any value into its string representation?",
+      "answerKey": "str()",
+      "explanation": "The str() constructor converts objects to their informal or nicely printable string representation."
+    },
+    {
+      "id": 12,
+      "topic": "Type Conversion",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output of int(3.9)?",
+      "options": {
+        "a": "3",
+        "b": "4",
+        "c": "3.0",
+        "d": "Error"
+      },
+      "answerKey": "a",
+      "explanation": "int() truncates towards zero rather than rounding, converting 3.9 directly to 3."
+    },
+    {
+      "id": 13,
+      "topic": "Strings Basics",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the output of 'hello'[1] in Python?",
+      "options": {
+        "a": "h",
+        "b": "e",
+        "c": "l",
+        "d": "o"
+      },
+      "answerKey": "b",
+      "explanation": "Python uses 0-based indexing: index 0 is 'h', index 1 is 'e'."
+    },
+    {
+      "id": 14,
+      "topic": "Strings Basics",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "What does len('Python') return?",
+      "answerKey": "6",
+      "explanation": "The len() function returns the number of characters in the string 'Python' (6 characters)."
+    },
+    {
+      "id": 15,
+      "topic": "Strings Basics",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\ns = 'Hello Python'\nprint(s[:5])",
+      "options": {
+        "a": "Hello",
+        "b": "Hello ",
+        "c": "Hell",
+        "d": "Python"
+      },
+      "answerKey": "a",
+      "explanation": "Slicing s[:5] extracts indices 0, 1, 2, 3, 4 (stopping before index 5), resulting in 'Hello'."
+    },
+    {
+      "id": 16,
+      "topic": "String Methods",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What does 'hello world'.title() return?",
+      "options": {
+        "a": "'HELLO WORLD'",
+        "b": "'Hello World'",
+        "c": "'hello world'",
+        "d": "'Hello world'"
+      },
+      "answerKey": "b",
+      "explanation": ".title() capitalizes the first character of each word and lowercases remaining characters."
+    },
+    {
+      "id": 17,
+      "topic": "String Methods",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "Which string method removes leading and trailing whitespace from a string?",
+      "answerKey": "strip()",
+      "explanation": "str.strip() strips all leading and trailing whitespace characters (spaces, tabs, newlines)."
+    },
+    {
+      "id": 18,
+      "topic": "String Methods",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output?\n\nprint('abc'.replace('b', 'x'))",
+      "options": {
+        "a": "'axc'",
+        "b": "'abc'",
+        "c": "'xbx'",
+        "d": "Error"
+      },
+      "answerKey": "a",
+      "explanation": "replace('b', 'x') returns a copy with all occurrences of 'b' replaced by 'x', giving 'axc'."
+    },
+    {
+      "id": 19,
+      "topic": "String Formatting",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is an f-string in Python?",
+      "options": {
+        "a": "A string that always evaluates to False",
+        "b": "A formatted string literal with inline expression evaluation",
+        "c": "A function that formats text files",
+        "d": "A frozen immutable string"
+      },
+      "answerKey": "b",
+      "explanation": "Introduced in Python 3.6, formatted string literals (f-strings) let you embed expressions inside string constants using {expression}."
+    },
+    {
+      "id": 20,
+      "topic": "String Formatting",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "Write an f-string that prints 'I am 25 years old' using a variable age = 25.",
+      "answerKey": "print(f'I am {age} years old')",
+      "explanation": "Using f-string formatting: f'I am {age} years old' evaluates {age} to 25."
+    },
+    {
+      "id": 21,
+      "topic": "String Formatting",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nname = 'Alice'\nprint(f'Hello {name!r}')",
+      "options": {
+        "a": "Hello Alice",
+        "b": "Hello 'Alice'",
+        "c": "Hello \"Alice\"",
+        "d": "SyntaxError"
+      },
+      "answerKey": "b",
+      "explanation": "The !r conversion flag calls repr() on the variable, which adds quotes around strings: 'Alice'."
+    },
+    {
+      "id": 22,
+      "topic": "Arithmetic Operators",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the result of the floor division 17 // 3?",
+      "options": {
+        "a": "5.67",
+        "b": "5",
+        "c": "6",
+        "d": "2"
+      },
+      "answerKey": "b",
+      "explanation": "The // operator performs floor division, rounding down to the nearest integer (17 // 3 = 5)."
+    },
+    {
+      "id": 23,
+      "topic": "Arithmetic Operators",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "Which Python operator returns the remainder of a division?",
+      "answerKey": "%",
+      "explanation": "The modulo operator % returns the remainder after division (e.g., 7 % 3 = 1)."
+    },
+    {
+      "id": 24,
+      "topic": "Arithmetic Operators",
+      "type": "mcq",
+      "difficulty": "hard",
+      "question": "What will be the output?\n\nprint(2 ** 3 ** 2)",
+      "options": {
+        "a": "64",
+        "b": "512",
+        "c": "36",
+        "d": "Error"
+      },
+      "answerKey": "b",
+      "explanation": "Exponentiation (**) is right-associative in Python. 2 ** (3 ** 2) = 2 ** 9 = 512."
+    },
+    {
+      "id": 25,
+      "topic": "Comparison & Logical Operators",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the boolean result of: 5 > 3 and 10 < 20?",
+      "options": {
+        "a": "True",
+        "b": "False",
+        "c": "Error",
+        "d": "None"
+      },
+      "answerKey": "a",
+      "explanation": "Both conditions (5 > 3 is True and 10 < 20 is True) are satisfied, so 'and' evaluates to True."
+    },
+    {
+      "id": 26,
+      "topic": "Comparison & Logical Operators",
+      "type": "short",
+      "difficulty": "medium",
+      "question": "What does the 'is' operator check in Python?",
+      "answerKey": "identity",
+      "explanation": "The 'is' operator checks object identity (whether two variables refer to the exact same object in memory, id(a) == id(b))."
+    },
+    {
+      "id": 27,
+      "topic": "Comparison & Logical Operators",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output?\n\nprint(not (3 > 5))",
+      "options": {
+        "a": "True",
+        "b": "False",
+        "c": "Error",
+        "d": "None"
+      },
+      "answerKey": "a",
+      "explanation": "3 > 5 is False. The 'not' operator negates False to True."
+    },
+    {
+      "id": 28,
+      "topic": "Conditionals",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Which keyword starts an 'else if' branch in Python?",
+      "options": {
+        "a": "else if",
+        "b": "elif",
+        "c": "elseif",
+        "d": "elsif"
+      },
+      "answerKey": "b",
+      "explanation": "Python combines 'else if' into the single keyword 'elif'."
+    },
+    {
+      "id": 29,
+      "topic": "Conditionals",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nx = 10\nif x > 5:\n    print('big')\nelif x > 3:\n    print('medium')\nelse:\n    print('small')",
+      "options": {
+        "a": "big",
+        "b": "medium",
+        "c": "small",
+        "d": "big and medium"
+      },
+      "answerKey": "a",
+      "explanation": "In an if-elif-else chain, once a matching branch is found (x > 5 is True), its block executes and the rest of the chain is skipped."
+    },
+    {
+      "id": 30,
+      "topic": "Conditionals",
+      "type": "short",
+      "difficulty": "medium",
+      "question": "Write a one-line ternary conditional expression that assigns 'pass' if score >= 50 else 'fail' to variable result.",
+      "answerKey": "result = 'pass' if score >= 50 else 'fail'",
+      "explanation": "Python's ternary syntax is: value_if_true if condition else value_if_false."
+    },
+    {
+      "id": 31,
+      "topic": "Lists",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "How do you access the last element of a list named 'items'?",
+      "options": {
+        "a": "items[-1]",
+        "b": "items[last]",
+        "c": "items[0]",
+        "d": "items[len]"
+      },
+      "answerKey": "a",
+      "explanation": "Negative indexing in Python accesses elements from the end: items[-1] is the last element."
+    },
+    {
+      "id": 32,
+      "topic": "Lists",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nnums = [1, 2, 3, 4, 5]\nprint(nums[1:4])",
+      "options": {
+        "a": "[1, 2, 3, 4]",
+        "b": "[2, 3, 4]",
+        "c": "[2, 3, 4, 5]",
+        "d": "[1, 2, 3]"
+      },
+      "answerKey": "b",
+      "explanation": "Slicing [1:4] starts at index 1 ('2') and stops before index 4 ('5'), producing [2, 3, 4]."
+    },
+    {
+      "id": 33,
+      "topic": "Lists",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nnested = [[1, 2], [3, 4]]\nprint(nested[1][0])",
+      "options": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "[3, 4]"
+      },
+      "answerKey": "c",
+      "explanation": "nested[1] is [3, 4]. Index 0 of [3, 4] is 3."
+    },
+    {
+      "id": 34,
+      "topic": "Tuples",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What is the defining characteristic of a tuple compared to a list?",
+      "options": {
+        "a": "Tuples can only store numbers",
+        "b": "Tuples are immutable (cannot be modified after creation)",
+        "c": "Tuples cannot be indexed",
+        "d": "Tuples are mutable"
+      },
+      "answerKey": "b",
+      "explanation": "Tuples are immutable sequences in Python; once created, their elements cannot be changed, added, or removed."
+    },
+    {
+      "id": 35,
+      "topic": "Tuples",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output?\n\nt = (1, 2, 3)\nprint(t[0])",
+      "options": {
+        "a": "3",
+        "b": "1",
+        "c": "(1)",
+        "d": "TypeError"
+      },
+      "answerKey": "b",
+      "explanation": "Tuples support standard zero-based indexing: t[0] retrieves the first element, which is 1."
+    },
+    {
+      "id": 36,
+      "topic": "Tuples",
+      "type": "short",
+      "difficulty": "medium",
+      "question": "How do you unpack a tuple (10, 20, 30) into variables a, b, c in a single statement?",
+      "answerKey": "a, b, c = (10, 20, 30)",
+      "explanation": "Tuple unpacking assigns variables sequentially: a, b, c = (10, 20, 30)."
+    },
+    {
+      "id": 37,
+      "topic": "Sets",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What happens when you add a duplicate element to a Python set?",
+      "options": {
+        "a": "Raises a ValueError",
+        "b": "Stores duplicate alongside original",
+        "c": "Duplicate is silently ignored",
+        "d": "Overwrites previous keys"
+      },
+      "answerKey": "c",
+      "explanation": "Sets only store distinct, hashable items. Duplicate additions are ignored without raising errors."
+    },
+    {
+      "id": 38,
+      "topic": "Sets",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\ns = {1, 2, 2, 3, 3}\nprint(len(s))",
+      "options": {
+        "a": "5",
+        "b": "3",
+        "c": "2",
+        "d": "Error"
+      },
+      "answerKey": "b",
+      "explanation": "Duplicates (2 and 3) are removed upon set creation, leaving {1, 2, 3}, whose length is 3."
+    },
+    {
+      "id": 39,
+      "topic": "Sets",
+      "type": "short",
+      "difficulty": "medium",
+      "question": "What set method or operation returns elements that exist in both sets?",
+      "answerKey": "intersection",
+      "explanation": "The intersection() method (or the & operator) returns elements present in both sets."
+    },
+    {
+      "id": 40,
+      "topic": "Dictionaries",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What does dict.get('key', 'default') return if 'key' does not exist in the dictionary?",
+      "options": {
+        "a": "None",
+        "b": "'default'",
+        "c": "KeyError",
+        "d": "'key'"
+      },
+      "answerKey": "b",
+      "explanation": "dict.get(key, default) returns the specified default value if key is not found, avoiding a KeyError."
+    },
+    {
+      "id": 41,
+      "topic": "Dictionaries",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nd = {'a': 1, 'b': 2}\nprint(d.get('c', 0))",
+      "options": {
+        "a": "2",
+        "b": "1",
+        "c": "0",
+        "d": "KeyError"
+      },
+      "answerKey": "c",
+      "explanation": "Key 'c' does not exist in d, so get('c', 0) returns the fallback default value 0."
+    },
+    {
+      "id": 42,
+      "topic": "Dictionaries",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "Which dictionary method merges another dictionary or iterable of key-value pairs into the dictionary in-place?",
+      "answerKey": "update()",
+      "explanation": "dict.update() inserts or overwrites key-value pairs from another dictionary."
+    },
+    {
+      "id": 43,
+      "topic": "For Loops",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What numbers are generated by range(1, 5)?",
+      "options": {
+        "a": "1, 2, 3, 4, 5",
+        "b": "1, 2, 3, 4",
+        "c": "0, 1, 2, 3, 4",
+        "d": "1, 2, 3"
+      },
+      "answerKey": "b",
+      "explanation": "range(start, stop) starts at start (1) and stops before stop (5), generating 1, 2, 3, 4."
+    },
+    {
+      "id": 44,
+      "topic": "For Loops",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output?\n\nfor i in range(3):\n    print(i, end=' ')",
+      "options": {
+        "a": "1 2 3",
+        "b": "0 1 2",
+        "c": "0 1 2 3",
+        "d": "1 2"
+      },
+      "answerKey": "b",
+      "explanation": "range(3) defaults to starting at 0, yielding 0, 1, and 2."
+    },
+    {
+      "id": 45,
+      "topic": "For Loops",
+      "type": "short",
+      "difficulty": "medium",
+      "question": "What does the enumerate() function yield on each loop iteration over a sequence?",
+      "answerKey": "index and value pairs",
+      "explanation": "enumerate(iterable) yields tuples of (index, item) starting from index 0."
+    },
+    {
+      "id": 46,
+      "topic": "While Loops",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "Which keyword terminates a loop immediately?",
+      "options": {
+        "a": "exit",
+        "b": "stop",
+        "c": "break",
+        "d": "quit"
+      },
+      "answerKey": "c",
+      "explanation": "The 'break' keyword immediately breaks out of the innermost enclosing loop."
+    },
+    {
+      "id": 47,
+      "topic": "While Loops",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output?\n\ncount = 0\nwhile count < 3:\n    print(count, end=' ')\n    count += 1",
+      "options": {
+        "a": "1 2 3",
+        "b": "0 1 2",
+        "c": "0 1 2 3",
+        "d": "0 1"
+      },
+      "answerKey": "b",
+      "explanation": "Loops when count is 0, 1, 2. When count reaches 3, count < 3 is False and the loop terminates."
+    },
+    {
+      "id": 48,
+      "topic": "While Loops",
+      "type": "short",
+      "difficulty": "easy",
+      "question": "What keyword skips the remainder of the current loop iteration and moves to the next cycle?",
+      "answerKey": "continue",
+      "explanation": "The 'continue' statement rejects all remaining statements in the current iteration and moves control back to the top of the loop."
+    },
+    {
+      "id": 49,
+      "topic": "List Methods",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What is the primary difference between list.append() and list.extend()?",
+      "options": {
+        "a": "There is no difference in behavior",
+        "b": "append() adds its argument as a single element; extend() iterates over an iterable adding each item",
+        "c": "extend() adds a single item; append() takes only iterables",
+        "d": "append() removes items from the end"
+      },
+      "answerKey": "b",
+      "explanation": "append(x) inserts x as one element; extend(iterable) unpacks each element from the iterable onto the list."
+    },
+    {
+      "id": 50,
+      "topic": "List Methods",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nnums = [3, 1, 2]\nnums.sort()\nprint(nums)",
+      "options": {
+        "a": "[3, 1, 2]",
+        "b": "[2, 1, 3]",
+        "c": "[1, 2, 3]",
+        "d": "None"
+      },
+      "answerKey": "c",
+      "explanation": "list.sort() sorts the list in-place in ascending order, modifying nums to [1, 2, 3]."
+    },
+    {
+      "id": 51,
+      "topic": "List Methods",
+      "type": "short",
+      "difficulty": "medium",
+      "question": "What does sorted(nums) return that nums.sort() does not?",
+      "answerKey": "a new sorted list",
+      "explanation": "sorted() returns a new sorted list leaving the original untouched, whereas .sort() sorts in-place and returns None."
+    },
+    {
+      "id": 52,
+      "topic": "Advanced Dictionaries",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What does dict.items() return in Python 3?",
+      "options": {
+        "a": "A list of only the keys",
+        "b": "A list of only the values",
+        "c": "A dict_items view object containing (key, value) tuples",
+        "d": "A deep copy of the dictionary"
+      },
+      "answerKey": "c",
+      "explanation": "dict.items() returns a dynamic dictionary view object of (key, value) pairs."
+    },
+    {
+      "id": 53,
+      "topic": "Advanced Dictionaries",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nd1 = {'a': 1}\nd2 = {'b': 2}\nd3 = d1 | d2\nprint(d3)",
+      "options": {
+        "a": "{'a': 1, 'b': 2}",
+        "b": "{'a': 1}",
+        "c": "{'b': 2}",
+        "d": "TypeError"
+      },
+      "answerKey": "a",
+      "explanation": "Python 3.9+ introduced the dictionary merge operator (|), which combines keys and values into a new dict."
+    },
+    {
+      "id": 54,
+      "topic": "Advanced Dictionaries",
+      "type": "short",
+      "difficulty": "medium",
+      "question": "What operator merges two dictionaries d1 and d2 into a new dictionary in Python 3.9+?",
+      "answerKey": "d1 | d2",
+      "explanation": "The bitwise OR operator (|) is overloaded for dictionaries to perform merge operations."
+    },
+    {
+      "id": 55,
+      "topic": "Lists",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nnums = [1, 2, 3]\nnums.append([4, 5])\nprint(len(nums))",
+      "options": {
+        "a": "5",
+        "b": "3",
+        "c": "4",
+        "d": "2"
+      },
+      "answerKey": "c",
+      "explanation": "append() adds the entire list [4, 5] as a single element to nums, making nums = [1, 2, 3, [4, 5]], which has 4 elements."
+    },
+    {
+      "id": 56,
+      "topic": "Tuples",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nt = (1,)\nprint(type(t))",
+      "options": {
+        "a": "<class 'int'>",
+        "b": "<class 'tuple'>",
+        "c": "<class 'list'>",
+        "d": "SyntaxError"
+      },
+      "answerKey": "b",
+      "explanation": "The trailing comma creates a single-element tuple. Without the comma, (1) would simply be an integer inside parentheses."
+    },
+    {
+      "id": 57,
+      "topic": "Sets",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nA = {1, 2, 3}\nB = {3, 4, 5}\nprint(A & B)",
+      "options": {
+        "a": "{1, 2}",
+        "b": "{3}",
+        "c": "{1, 2, 3, 4, 5}",
+        "d": "{4, 5}"
+      },
+      "answerKey": "b",
+      "explanation": "The & operator computes the set intersection, which contains only elements present in both A and B ({3})."
+    },
+    {
+      "id": 58,
+      "topic": "Dictionaries",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nd = {'x': 10, 'y': 20}\nfor k, v in d.items():\n    print(k, v, end=' ')",
+      "options": {
+        "a": "x y 10 20",
+        "b": "10 20 x y",
+        "c": "x 10 y 20",
+        "d": "Error"
+      },
+      "answerKey": "c",
+      "explanation": "d.items() yields key-value tuples. In insertion order, it prints 'x 10 y 20 '."
+    },
+    {
+      "id": 59,
+      "topic": "For Loops",
+      "type": "mcq",
+      "difficulty": "medium",
+      "question": "What will be the output?\n\nfor i in range(5):\n    if i == 3:\n        break\n    print(i, end=' ')",
+      "options": {
+        "a": "0 1 2 3",
+        "b": "0 1 2",
+        "c": "0 1 2 3 4",
+        "d": "1 2"
+      },
+      "answerKey": "b",
+      "explanation": "The loop prints 0, 1, 2. When i becomes 3, the if condition triggers 'break', stopping execution before printing 3."
+    },
+    {
+      "id": 60,
+      "topic": "Conditionals",
+      "type": "mcq",
+      "difficulty": "easy",
+      "question": "What will be the output?\n\nx = 0\nprint('yes' if x else 'no')",
+      "options": {
+        "a": "yes",
+        "b": "no",
+        "c": "0",
+        "d": "Error"
+      },
+      "answerKey": "b",
+      "explanation": "In Python, 0 is falsy, so the ternary expression 'yes' if x else 'no' evaluates to 'no'."
+    }
+  ]
+}
